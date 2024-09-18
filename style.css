@@ -1,0 +1,42 @@
+/* Font body*/
+body{
+    font-family: 'Open Sans', system-ui;
+}
+/* nav */
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none ;
+    margin-right: 50px;
+    color:  #474747;
+}
+.nav-title{
+    color: var( #181818);
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+nav a{
+    text-decoration: none;
+}
+/* text primary color orange */
+.text-primary{
+    color: #FD6E0A;
+}
+/* botton */
+.btn-primary{
+    border-radius: 5px;
+background: #FD6E0A;
+border: 0;
+color: white;
+font-size: 15px;
+font-weight: 700px;
+padding: 15px 35px ;
+}
